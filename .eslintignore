@@ -1,0 +1,15 @@
+.babelrc
+.bowerrc
+.eslintrc.js
+.gitignore
+.stylelintrc
+.yo-rc.json
+bower.json
+postcss.config.js
+webpack.config.js
+
+generators/actions/templates
+generators/app/templates
+generators/components/templates
+generators/scss/templates
+generators/tests/templates

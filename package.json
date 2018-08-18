@@ -1,13 +1,39 @@
 {
-  "name": "generator-max-react",
+  "name": "generator-ecmaScriptGemz",
   "version": "0.0.1",
-  "description": "scaffolds app with most useful npm modules",
+  "description": "scaffolds app with most useful npm modules and configuration",
   "main": "index.js",
-  "files": ["generators"],
+  "files": [
+    "generators"
+  ],
   "author": "Max Kendall",
   "license": "MIT",
   "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1"
+  },
   "dependencies": {
-    "yeoman-generator": "^3.1.1"
+    "chalk": "^2.4.1",
+    "global": "^4.3.2",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
   }
 }

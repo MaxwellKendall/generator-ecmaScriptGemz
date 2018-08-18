@@ -1,3 +1,4 @@
 /node_modules
-.DS_Store
+/yo-rc.json
+README.md
 /target
