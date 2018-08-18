@@ -1,0 +1,13 @@
+{
+  "name": "generator-max-react",
+  "version": "0.0.1",
+  "description": "scaffolds app with most useful npm modules",
+  "main": "index.js",
+  "files": ["generators"],
+  "author": "Max Kendall",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "yeoman-generator": "^3.1.1"
+  }
+}
