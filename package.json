@@ -1,5 +1,5 @@
 {
-  "name": "generator-ecmaScriptGemz",
+  "name": "generator-ecma-script-gemz",
   "version": "0.0.1",
   "description": "scaffolds app with most useful npm modules and configuration",
   "main": "index.js",
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
+    "generator-ecma-script-gemz": "0.0.1",
     "global": "^4.3.2",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
